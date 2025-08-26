@@ -1,4 +1,4 @@
-### WEbscrapping-using-python-Hamleys.in
+### WebScrapping-using-python-Hamleys.in
 
 **A simple web scraping project that extracts product details from Hamleys.in using Python.**
 
@@ -38,7 +38,16 @@ On success, a `data.csv` file will be created/overwritten with columns:
 - The scraper relies on the current HTML structure of Hamleys.in. If the site structure changes, selectors in `final.py` may need updates.
 - Be respectful of robots.txt and the website's terms of use. Use responsibly.
 
-### Troubleshooting
+### 🚦 Troubleshooting
+
+- **Connection errors**: If you encounter timeouts or failed requests, check your internet connection and try again later. You can also add retry logic or exponential backoff in `final.py` for improved reliability.
+- **Invalid URLs**: Double-check that every line in `url_list.csv` contains a valid, reachable Hamleys product URL.
+- **Missing data**: If some fields are empty in `data.csv`, the website's HTML structure may have changed. Inspect the page and update selectors in `final.py` as needed.
+- **Dependency issues**: Ensure all required packages are installed using `pip install -r requirements.txt`. Use Python 3.9 or newer.
+- **Permission errors**: Run your scripts with appropriate permissions, especially if writing files to protected directories.
+- **Respect website policies**: Avoid sending too many requests in a short time. Review Hamleys.in robots.txt and terms of use.
+
+If you need help, feel free to open an issue or start a discussion!
 - If you see connection errors, try again later or add retries/backoff.
 - Ensure every line in `url_list.csv` is a valid, reachable product URL.
 
