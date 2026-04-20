@@ -48,10 +48,7 @@ On success, a `data.csv` file will be created/overwritten with columns:
 - **Respect website policies**: Avoid sending too many requests in a short time. Review Hamleys.in robots.txt and terms of use.
 
 If you need help, feel free to open an issue or start a discussion!
-- If you see connection errors, try again later or add retries/backoff.
-- Ensure every line in `url_list.csv` is a valid, reachable product URL.
 
 ### License
 This project is provided for educational purposes. You may adapt it for your own use.
-
 
