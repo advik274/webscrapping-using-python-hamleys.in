@@ -1,4 +1,4 @@
-### WebScrapping-using-python-Hamleys.in
+### WebScraping-using-python-Hamleys.in
 
 **A simple web scraping project that extracts product details from Hamleys.in using Python.**
 
@@ -52,3 +52,6 @@ If you need help, feel free to open an issue or start a discussion!
 ### License
 This project is provided for educational purposes. You may adapt it for your own use.
 
+### 📝 Note on Web Scraping
+
+This project is for **educational purposes only**. Always check a website's `robots.txt` file and terms of service before scraping. Use responsibly and avoid overloading servers with too many requests.
